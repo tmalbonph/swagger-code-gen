@@ -9,7 +9,7 @@ A code generator project.
 
 This software is a [NodeJS](http://nodejs.org) application.
 
-It is intended for generating [Client side](https://github.com/tmalbonph/swagger-clent-gen), [Server side](https://github.com/tmalbonph/swagger-server-gen) and [Server database](https://github.com/tmalbonph/swagger-dbf-gen) [NodeJS](http://nodejs.org) codes from a Swagger Specification file in [version 2.0](https://github.com/reverb/swagger-spec/blob/master/versions/2.0.md) document format.
+It is intended for generating [Client side](https://github.com/tmalbonph/swagger-client-gen), [Server side](https://github.com/tmalbonph/swagger-server-gen) and [Server database](https://github.com/tmalbonph/swagger-dbf-gen) [NodeJS](http://nodejs.org) codes from a Swagger Specification file in [version 2.0](https://github.com/reverb/swagger-spec/blob/master/versions/2.0.md) document format.
 
 It is design to be run with [npm](https://www.npmjs.org/package/npm) using `npm run-script {XXXX};` where XXXX is one of demo, gen, test.
 
@@ -43,7 +43,7 @@ It is design to be run with [npm](https://www.npmjs.org/package/npm) using `npm 
 
  `node gen.js -c PATH/TO/YOUR/CONFIG/FILE -m [development staging qc production]`
 
-* the configuration in JSON format should content information like
+* the configuration in JSON format should contain information like
  ```
         {
         "development" : {
@@ -80,9 +80,7 @@ It is design to be run with [npm](https://www.npmjs.org/package/npm) using `npm 
 
 ### License
 
-[MIT](https://github.com/tmalbonph/swagger-code-gen/blob/master/LICENSE)
-
-The MIT License (MIT)
+[The MIT License (MIT)](https://github.com/tmalbonph/swagger-code-gen/blob/master/LICENSE)
 
 Copyright (c) 2014 tmalbonph <tmalbonph@yahoo.com>
 
