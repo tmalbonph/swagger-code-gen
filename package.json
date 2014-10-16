@@ -1,0 +1,25 @@
+{
+  "name": "swagger-code-gen",
+  "version": "0.1.0",
+  "description": "A client/server/database code generator from a Swagger 2.0 Specification file",
+  "main": "index.js",
+  "scripts": {
+    "test": "node demo",
+    "start": "node gen.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tmalbonph/swagger-code-gen.git"
+  },
+  "keywords": [
+    "Swagger",
+    "code gen",
+    "swagger spec"
+  ],
+  "author": "tmalbonph",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tmalbonph/swagger-code-gen/issues"
+  },
+  "homepage": "https://github.com/tmalbonph/swagger-code-gen"
+}

@@ -1,0 +1,6 @@
+.test
+.logs
+generated
+node_modules
+*.patch
+*.log
